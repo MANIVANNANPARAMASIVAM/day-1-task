@@ -1,0 +1,21 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1
+
+The first usable version of HTTP was created in 1997.
+Because it went through several stages of development this first version of HTTP was called HTTP/1.1.
+This version is still in use on the web.
+The first response that a client receives on an HTTP GET request is often not the fully rendered page. 
+HTTP/1.1 takes care of this problem by introducing persistent connections and pipelining. With persistent connections, HTTP/1.1 assumes that a TCP connection should be kept open unless directly told to close.
+This allows the client to send multiple requests along the same connection without waiting for a response to each, greatly improving the performance of HTTP/1.1 over HTTP/1.0.
+
+HTTP2
+
+In 2015, a new version of HTTP called HTTP/2 was created.
+HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate.
+In particular, HTTP/2 is much faster and more efficient than HTTP/1.1.
+One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process.
+HTTP/2 began as the SPDY protocol, developed primarily at Google with the intention of reducing web page load latency by using techniques such as compression, multiplexing, and prioritization.
+This protocol served as a template for HTTP/2 when the Hypertext Transfer Protocol working group httpbis of the IETF (Internet Engineering Task Force) put the standard together, culminating in the publication of HTTP/2 in May 2015.
+From the beginning, many browsers supported this standardization effort, including Chrome, Opera, Internet Explorer, and Safari.
+Due in part to this browser support, there has been a significant adoption rate of the protocol since 2015, with especially high rates among new sites.

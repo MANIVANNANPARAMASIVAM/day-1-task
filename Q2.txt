@@ -1,0 +1,15 @@
+Write a blog about objects and its internal representation in Javascript?
+
+Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript.
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+First and foremost, never confuse JavaScript objects with other language object concepts; they are vastly different fundamentally. People who come from other languages, such as Java or C++, make the worst mistake by comparing JavaScript objects to others.
+
+A JavaScript object is a named collection of values with state and behaviour (properties and methods).
+
+For example, a person, a car, a pen, a bicycle, a computer, a washing machine, and so on.
+
+Consider automobiles.
+
+Although all cars have the same attributes, the values of those properties vary from vehicle to vehicle. The processes are the similar in all cars, although they are carried out at different periods.
